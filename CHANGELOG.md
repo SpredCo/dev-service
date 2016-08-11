@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.0
+
+* New spred version
+
+*guedj_m, Thu Aug 11 2016 15:32:40 GMT+0200 (CEST)*
+
+---
 ## 0.0.0
 
 * Initial version

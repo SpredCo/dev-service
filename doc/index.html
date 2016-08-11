@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>Spred Developer service</title>
+        <link rel="stylesheet" type="text/css"
+        href="./css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="./css/bootstrap-theme.min.css">
+        <link rel="stylesheet" type="text/css" href="./css/uber-font.css">
+        <link rel="stylesheet" type="text/css" href="./css/style.css">
+        <script type="text/javascript" src="./js/jquery-1.12.0.min.js"></script>
+        <script type="text/javascript" src="./js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="./js/doc.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                setTimeout(loadVersionListRoot, 500);
+            });
+        </script>
+    </head>
+    
+    <body>
+        <header class="header">
+            <div class="container">
+                <div>
+                    <h4>Spred Developer service</h4>
+                </div>
+            </div>
+        </header>
+        <div class="container page-layout">
+            <div class="page_content">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="doc-content">
+                            <div class="part">
+                                <h1>Spred Developer service</h1>
+                                <hr>
+                                <div class="paragraph-header">
+                                    <p>The developer service of the Spred api allows developers to create clients
+                                        for the OAuth2 authentication.
+                                        <br/>It is available here: <a href="http://dev.sharemyscreen.fr:3000">dev.sharemyscreen.fr:3000</a>
+                                        <br/>The <strong>login</strong> service documentation will be available here
+                                        <a
+                                        href="http://login.sharemyscreen.fr:3000/doc">login.sharemyscreen.fr:3000/doc</a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="part">
+                                <h1>Versions list</h1>
+                                <hr>
+                                <div id="versions" class="paragraph-header">
+                                    <center>
+                                        <img src="./img/Preloader_21.gif" style="margin-top: 50px">
+                                    </center>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>
