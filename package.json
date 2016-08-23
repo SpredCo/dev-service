@@ -12,21 +12,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SpredCo/dev-service.git"
+    "url": "git+https://github.com/spredco/dev-service.git"
   },
   "author": "Maxime Guedj",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/SpredCo/dev-service/issues"
+    "url": "https://github.com/spredco/dev-service/issues"
   },
-  "homepage": "https://github.com/SpredCo/dev-service#readme",
+  "homepage": "https://github.com/spredco/dev-service#readme",
   "dependencies": {
     "body-parser": "^1.15.2",
     "config": "^1.21.0",
     "express": "^4.14.0",
     "js-yaml": "^3.6.1",
-    "spred-common": "git+ssh://git@github.com/Spredco/common.git",
-    "spred-http-helper": "git+ssh://git@github.com/Spredco/http-helper.git"
+    "spred-common": "git+ssh://git@github.com/spredco/common.git",
+    "spred-http-helper": "git+ssh://git@github.com/spredco/http-helper.git"
   },
   "devDependencies": {
     "api-doc-generator": "git+ssh://git@github.com/guedjm/api-doc-generator.git",
