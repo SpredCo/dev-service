@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.2.0
+
+* Add route to delete user
+
+*guedj_m, Wed Sep 14 2016 13:55:03 GMT-0700 (PDT)*
+
+---
 ## 0.1.0
 
 * New spred version

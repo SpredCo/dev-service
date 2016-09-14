@@ -1,5 +1,13 @@
 [
   {
+    "version": "0.2.0",
+    "author": "guedj_m",
+    "date": "Wed Sep 14 2016 13:55:03 GMT-0700 (PDT)",
+    "changes": [
+      "Add route to delete user"
+    ]
+  },
+  {
     "version": "0.1.0",
     "author": "guedj_m",
     "date": "Thu Aug 11 2016 15:32:40 GMT+0200 (CEST)",
