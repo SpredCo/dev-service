@@ -1,5 +1,4 @@
 const config = require('config');
-const expect = require('chai').expect;
 const supertest = require('supertest');
 const common = require('spred-common');
 const fixture = require('../fixture/user.json');
@@ -12,7 +11,7 @@ var user;
 describe('Testing user routes', function () {
   before(function (done) {
     common.userModel.createPassword(fixture.user.email, fixture.user.password,
-    fixture.user.pseudo, fixture.user.first_name, fixture.user.last_name, function (err, cUser) {
+      fixture.user.pseudo, fixture.user.first_name, fixture.user.last_name, function (err, cUser) {
         if (err) {
           done(err);
         } else {
@@ -21,7 +20,7 @@ describe('Testing user routes', function () {
         }
       });
   });
-  
+
   describe('Testing user deletion (DELETE /v1/users/{email}', function () {
     it('Should delete an user', function (done) {
       devSrv
@@ -36,7 +35,7 @@ describe('Testing user routes', function () {
           }
         });
     });
-    
+
     it('Should reply an error when email does not exists', function (done) {
       devSrv
         .delete('/v1/users/fezfze')
