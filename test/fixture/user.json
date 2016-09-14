@@ -1,0 +1,10 @@
+{
+  "user": {
+    "email": "dev@user.com",
+    "password": "password",
+    "pseudo": "devpseudo",
+    "fist_name": "Dev",
+    "last_name": "Dev",
+    "picture": "test"
+  }
+}

@@ -5,6 +5,7 @@ const bodyParser = require('body-parser');
 const httpHelper = require('spred-http-helper');
 
 const client = require('./route/client');
+const user = require('./route/user');
 
 var devApp = null;
 var devRouter = null;
@@ -22,6 +23,7 @@ function getApp (log) {
 
   // Register all routes
   client.registerRoute(devRouter);
+  user.registerRoute(devRouter);
 
   devApp.use('/v1', devRouter);
   devApp.use('/doc', express.static(path.join(__dirname, '/doc'), {dotfiles: 'allow'}));

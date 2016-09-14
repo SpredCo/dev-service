@@ -46,6 +46,19 @@ api:
               200:
                 description: Array of clients
                 type: Client array
+    -
+      /v1/users/{email}:
+        delete:
+          summary: Delete an user
+          description: Delete the user
+          responses:
+            -
+              200:
+                description: User deleted
+                type: string
+              404:
+                description: User not found
+                type: string
   errors:
     -
       Invalid request:
