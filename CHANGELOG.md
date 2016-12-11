@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.3.0
+
+* Add tag creation
+
+*guedjm, Sun Dec 11 2016 13:28:39 GMT+0100 (CET)*
+
+---
 ## 0.2.0
 
 * Add route to delete user

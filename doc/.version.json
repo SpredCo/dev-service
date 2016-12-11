@@ -1,5 +1,13 @@
 [
   {
+    "version": "0.3.0",
+    "author": "guedjm",
+    "date": "Sun Dec 11 2016 13:28:39 GMT+0100 (CET)",
+    "changes": [
+      "Add tag creation"
+    ]
+  },
+  {
     "version": "0.2.0",
     "author": "guedj_m",
     "date": "Wed Sep 14 2016 13:55:03 GMT-0700 (PDT)",
