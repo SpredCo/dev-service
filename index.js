@@ -11,7 +11,7 @@ const tag = require('./route/tag');
 var devApp = null;
 var devRouter = null;
 
-function getApp (log) {
+function getApp (log, indexerFunc) {
   logger.info('Initializing dev app ...');
   devApp = express();
   devApp.use(bodyParser.json());
@@ -25,7 +25,7 @@ function getApp (log) {
   // Register all routes
   client.registerRoute(devRouter);
   user.registerRoute(devRouter);
-  tag.registerRoute(devRouter);
+  tag.registerRoute(devRouter, indexerFunc);
 
   devApp.use('/v1', devRouter);
   devApp.use('/doc', express.static(path.join(__dirname, '/doc'), {dotfiles: 'allow'}));
