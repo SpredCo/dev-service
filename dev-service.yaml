@@ -59,6 +59,31 @@ api:
               404:
                 description: User not found
                 type: string
+    -
+      /v1/tags:
+        post:
+          summary: Create a new tag
+          description: Create a new tag
+          parameters:
+            -
+              name:
+                description: The new tag name
+                in: body
+                type: string
+                required: true
+            -
+              description:
+                description: New tag description
+                in: body
+                type: string
+                required: true
+          responses:
+            -
+              201:
+                description: Tag created
+                type: Tag
+          errors:
+            - Invalid request
   errors:
     -
       Invalid request:
@@ -101,3 +126,11 @@ api:
             secret: ""
             created_at: ""
             updated_at: ""
+    -
+      Tag:
+        description: Tag object
+        obj:
+          -
+            id: ""
+            name: ""
+            description: ""
