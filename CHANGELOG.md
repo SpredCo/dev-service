@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.3.1
+
+* Update docuentation
+
+*guedjm, Sun Dec 11 2016 13:33:34 GMT+0100 (CET)*
+
+---
 ## 0.3.0
 
 * Add tag creation
