@@ -25,8 +25,8 @@
     "config": "^1.21.0",
     "express": "^4.14.0",
     "js-yaml": "^3.6.1",
-    "spred-common": "git+https://github.com/Spredco/common.git",
-    "spred-http-helper": "git+https://github.com/Spredco/http-helper.git"
+    "spred-common": "git+https://github.com/SpredCo/common.git",
+    "spred-http-helper": "git+https://github.com/SpredCo/http-helper.git"
   },
   "devDependencies": {
     "api-doc-generator": "git+https://github.com/guedjm/api-doc-generator.git",
